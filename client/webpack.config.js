@@ -65,7 +65,7 @@ module.exports = {
       filename: "[name].css",
     }),
     new InjectManifest({
-      swSrc: path.resolve(__dirname, "src/sw.js"),
+      swSrc: path.resolve(__dirname, "/srcSw.js"),
       swDest: "srcSw.js",
     }),
     new WebpackPwaManifest({
